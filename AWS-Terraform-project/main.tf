@@ -1,30 +1,34 @@
+#  Create VPC
 resource "aws_vpc" "main_vpc" {
-  cidr_block = "10.0.0.0/16"
+  cidr_block = var.vpc_cidr
 
   tags = {
-    Name = "my-vpc"
+    Name = "Terraform-vpc"
   }
 }
 
+# Create Public Subnet
 resource "aws_subnet" "public_subnet" {
   vpc_id     = aws_vpc.main_vpc.id
-  cidr_block = "10.0.1.0/24"
+  cidr_block = var.subnet_cidr
 
-  availability_zone = "ap-south-1a"
+  availability_zone = var.availability_zone
 
   tags = {
     Name = "public-subnet"
   }
 }
 
+# Create Internet Gateway
 resource "aws_internet_gateway" "igw" {
   vpc_id = aws_vpc.main_vpc.id
 
   tags = {
-    Name = "my-igw"
+    Name = "Terraform-igw"
   }
 }
 
+# Create Routr table and associate with subnet
 resource "aws_route_table" "public_rt" {
   vpc_id = aws_vpc.main_vpc.id
 
