@@ -1,0 +1,35 @@
+pipeline {
+    agent any
+
+    stages {
+
+        stage('Checkout Code') {
+            steps {
+                git 'https://github.com/your-username/project-jenkins.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo 'Build step not required for HTML'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                echo 'Checking if index.html exists...'
+                sh 'test -f app/index.html'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo 'Deploying HTML app...'
+                sh '''
+                mkdir -p /var/www/html
+                cp app/index.html /var/www/html/
+                '''
+            }
+        }
+    }
+}
