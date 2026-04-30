@@ -131,6 +131,33 @@ http://<your-server-ip>
 ![alt](https://github.com/rohityt0dev/DevOpsProject/blob/91505a62dda0905766732ecb339f92de32bd4694/Jenkine-project/Screenshot%202026-04-30%20221912.png)
 ---
 
+❌ Errors Faced & Fixes
+
+Web Server Not Installed Even if deployment works, without a server:
+
+👉 Browser cannot show your app
+
+Fix:
+
+Install and run Nginx:
+
+```bash
+sudo apt update
+sudo apt install nginx -y
+```
+
+Jenkinsfile Path Issue
+
+👉 deployment silently fails
+
+```sudo visudo```
+
+jenkins ALL=(ALL) NOPASSWD: ALL
+
+```devops-project/jenkins-project/Jenkinsfile```
+
+Jenkins Not Using sudo Properly
+
 ## 🎯 Key Learnings
 
 * Implemented CI/CD pipeline using Jenkins
