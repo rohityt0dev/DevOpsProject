@@ -11,18 +11,18 @@ pipeline {
 
         stage('Test') {
             steps {
-                echo 'Checking if index.html exists...'
-                sh 'ls -l'
+                echo 'Checking files...'
+                sh 'ls -R'
             }
         }
 
-       stage('Deploy') {
-    steps {
-        echo 'Deploying HTML app...'
-        sh '''
-        sudo cp app/index.html /var/www/html/index.html
-        '''
-    }
-}
+        stage('Deploy') {
+            steps {
+                echo 'Deploying HTML app...'
+                sh '''
+                sudo cp app/index.html /var/www/html/index.html
+                '''
+            }
+        }
     }
 }
