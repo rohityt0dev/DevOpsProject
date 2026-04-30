@@ -127,7 +127,7 @@ jenkins-project/Jenkinsfile
 ```
 
 5. Click **Build Now**
-
+![alt](https://github.com/rohityt0dev/DevOpsProject/blob/f5f9b4c1787bce948538e7f5a8c7bc85018adf37/Jenkine-project/Screenshot%202026-04-30%20222427.png)
 ---
 
 ## 🌍 Access Application
