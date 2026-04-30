@@ -20,7 +20,7 @@ pipeline {
             steps {
                 echo 'Deploying HTML app...'
                 sh '''
-                sudo cp app/index.html /var/www/html/index.html
+                cp Jenkine-project/app/index.html /var/www/html/index.html
                 '''
             }
         }
