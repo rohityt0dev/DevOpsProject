@@ -104,15 +104,6 @@ sudo apt install nginx -y
 ```bash
 sudo systemctl start nginx
 ```
-
----
-
-## 🔓 Permissions Fix (if needed)
-
-```bash
-sudo chown -R jenkins:jenkins /var/www/html
-```
-
 ---
 
 ## ▶️ How to Run
