@@ -12,14 +12,14 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Checking if index.html exists...'
-                bat 'dir'
+                sh 'ls -l'
             }
         }
 
         stage('Deploy') {
             steps {
                 echo 'Deploying application...'
-                bat 'echo Deployment Successful'
+                sh 'echo Deployment Successful'
             }
         }
     }
