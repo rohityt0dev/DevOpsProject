@@ -137,7 +137,7 @@ Open in browser:
 ```
 http://<your-server-ip>
 ```
-
+![alt](https://github.com/rohityt0dev/DevOpsProject/blob/91505a62dda0905766732ecb339f92de32bd4694/Jenkine-project/Screenshot%202026-04-30%20221912.png)
 ---
 
 ## 🎯 Key Learnings
