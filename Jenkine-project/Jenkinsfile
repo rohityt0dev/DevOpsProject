@@ -16,11 +16,13 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
-            steps {
-                echo 'Deploying application...'
-                sh 'echo Deployment Successful'
-            }
-        }
+       stage('Deploy') {
+    steps {
+        echo 'Deploying HTML app...'
+        sh '''
+        sudo cp app/index.html /var/www/html/index.html
+        '''
+    }
+}
     }
 }
