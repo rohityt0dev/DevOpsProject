@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/your-username/project-jenkins.git'
-            }
-        }
-
         stage('Build') {
             steps {
                 echo 'Build step not required for HTML'
@@ -17,8 +11,8 @@ pipeline {
 
         stage('Test') {
             steps {
-                echo 'Checking if index.html exists...'
-                sh 'test -f app/index.html'
+                echo 'Checking files...'
+                sh 'ls -R'
             }
         }
 
@@ -26,8 +20,7 @@ pipeline {
             steps {
                 echo 'Deploying HTML app...'
                 sh '''
-                mkdir -p /var/www/html
-                cp app/index.html /var/www/html/
+                cp Jenkine-project/app/index.html /var/www/html/index.html
                 '''
             }
         }
