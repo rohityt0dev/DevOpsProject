@@ -324,9 +324,7 @@ This imports the popular Node Exporter dashboard.
 # 👨‍💻 Author
 
 Rohit Tambadkar
-
-- GitHub: https://github.com/yourusername
-- Hashnode: https://yourblog.hashnode.dev
+- Hashnode: https://my-devops-automation-project.hashnode.dev/
 
 ---
 
