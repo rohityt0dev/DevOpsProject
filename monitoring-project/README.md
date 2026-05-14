@@ -279,12 +279,12 @@ This imports the popular Node Exporter dashboard.
 # 📷 Screenshots
 
 ## Grafana Dashboard
-[alt](https://github.com/rohityt0dev/DevOpsProject/blob/d0bedaf14f83dd934dcf85b07e24b26c8f18807b/monitoring-project/Screenshot%202026-05-12%20134105.png)
-[alt](https://github.com/rohityt0dev/DevOpsProject/blob/d0bedaf14f83dd934dcf85b07e24b26c8f18807b/monitoring-project/Screenshot%202026-05-12%20134122.png)
-[alt](https://github.com/rohityt0dev/DevOpsProject/blob/d0bedaf14f83dd934dcf85b07e24b26c8f18807b/monitoring-project/Screenshot%202026-05-12%20134507.png)
+![alt](https://github.com/rohityt0dev/DevOpsProject/blob/c299e8ac0f56039ac516e5188c550ec11c53e066/monitoring-project/Screenshot%202026-05-12%20134105.png)
+![alt](https://github.com/rohityt0dev/DevOpsProject/blob/d0bedaf14f83dd934dcf85b07e24b26c8f18807b/monitoring-project/Screenshot%202026-05-12%20134122.png)
+![alt](https://github.com/rohityt0dev/DevOpsProject/blob/d0bedaf14f83dd934dcf85b07e24b26c8f18807b/monitoring-project/Screenshot%202026-05-12%20134507.png)
 ## Docker Containers
-[alt](https://github.com/rohityt0dev/DevOpsProject/blob/d0bedaf14f83dd934dcf85b07e24b26c8f18807b/monitoring-project/Screenshot%202026-05-12%20131259.png)
-[alt](https://github.com/rohityt0dev/DevOpsProject/blob/d0bedaf14f83dd934dcf85b07e24b26c8f18807b/monitoring-project/Screenshot%202026-05-12%20131321.png)
+![alt](https://github.com/rohityt0dev/DevOpsProject/blob/c299e8ac0f56039ac516e5188c550ec11c53e066/monitoring-project/Screenshot%202026-05-12%20131259.png)
+![alt](https://github.com/rohityt0dev/DevOpsProject/blob/c299e8ac0f56039ac516e5188c550ec11c53e066/monitoring-project/Screenshot%202026-05-12%20131321.png)
 ---
 
 # ✅ Features
